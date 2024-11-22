@@ -10,11 +10,11 @@
   <title>Countries</title>
 </head>
 <body>  
-   <div class="modal" id="modal">
+   <!-- <div class="modal" id="modal">
     <button id="btn-close-modal">X</button>
     <img src="" alt="" srcset="">
     <h2>No encontramos tu país</h2>
-  </div> 
+  </div> -->
   <div id="board" class="board">
     <header><h1>Países</h1></header>
     <main> 
@@ -38,15 +38,20 @@
           <h4>Población</h4>
         </section>
       </aside>
-      <section>        
+
+      <section id="section-countries">   
+            
       </section>
+
     </main>
     <footer> 
       <p>Elaborado por: <strong>Edwin Rozo</strong></p>
     </footer> 
   </div>
+  <div class="countries-grid" id="countriesGrid"></div>
+  
   <script type="module" src="scripts/app.js"></script>
   <script type="module" src="scripts/countries.js"></script>
-  <script type="module" src="scripts/index.js"></script>
+  
 </body>
 </html>
